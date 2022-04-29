@@ -1,0 +1,28 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-image: url("image/img2.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -600px;
+  height: 1000px;
+  color: rgb(67, 65, 94);
+  font-size: 100px;
+}
+
+section {
+  padding: 3rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#tempatdanwaktu .row > * {
+  padding: 0;
+}
+
+h1 {
+  font-style: italic;
+  font-family: monospace;
+  color: antiquewhite;
+}
