@@ -11,9 +11,10 @@
 }
 
 .nav-link {
+  font-family: Pacifico;
   margin-right: 30px;
-  font-size: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  font-size: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron {
@@ -39,6 +40,15 @@
   position: absolute;
 }
 
+.about-text {
+  font-family: Pacifico;
+  color: darkgoldenrod;
+}
+
+.about .keterangan {
+  color: black;
+}
+
 @media (min-width: 992px) {
   .navbar {
     color: transparent;
@@ -46,6 +56,7 @@
 
   .navbar-brand,
   .nav-link {
+    font-size: 15px;
     font-family: Pacifico;
     color: white !important;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
