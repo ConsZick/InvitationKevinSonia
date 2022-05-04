@@ -45,9 +45,7 @@
   color: darkgoldenrod;
 }
 
-.about .keterangan {
-  color: black;
-}
+
 
 @media (min-width: 992px) {
   .navbar {
