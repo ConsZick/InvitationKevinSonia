@@ -26,11 +26,6 @@
   position: relative;
 }
 
-.display-4 {
-  color: rgb(194, 51, 51);
-  font-size: 20px;
-}
-
 .jumbotron::after {
   content: "";
   display: block;
@@ -42,10 +37,23 @@
 
 .about-text {
   font-family: Pacifico;
-  color: darkgoldenrod;
+  color: rgb(136, 117, 10);
 }
 
+.about-text h4 {
+  color: rgb(33, 91, 218);
+  font-family: Tapestry;
+  font-weight: 500;
+}
 
+.foto1 {
+  width: 100px;
+}
+
+.about .container {
+  height: 500px;
+  background-color: rgb(194, 51, 51);
+}
 
 @media (min-width: 992px) {
   .navbar {
@@ -63,5 +71,8 @@
   .jumbotron {
     height: 500px;
     margin-top: -65px;
+  }
+  .foto1 {
+    width: 200px;
   }
 }
