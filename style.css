@@ -55,6 +55,31 @@
   background-color: rgb(194, 51, 51);
 }
 
+/* .countdown {
+  display: flex;
+  transform: scale(0.5);
+} */
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+.section-countdown {
+  background-color: #ac9072;
+  font-family: Pacifico;
+  color: #fff7ef;
+}
+
 @media (min-width: 992px) {
   .navbar {
     color: transparent;
@@ -74,5 +99,15 @@
   }
   .foto1 {
     width: 200px;
+  }
+
+  .time {
+    margin: 50px;
+  }
+
+  .time h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: darkslategrey;
   }
 }
