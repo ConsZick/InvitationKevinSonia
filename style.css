@@ -80,6 +80,10 @@
   color: #fff7ef;
 }
 
+.tempat .container {
+  background-image: linear-gradient(180deg, rgba(224, 227, 228, 1), rgba(181, 213, 220, 0));
+}
+
 @media (min-width: 992px) {
   .navbar {
     color: transparent;
