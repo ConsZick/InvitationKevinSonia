@@ -39,7 +39,7 @@
 
     <!-- Mulai Navbar -->
     <section id="menu">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">Invitation</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -121,7 +121,7 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container-fluid bg-opacity-75" style="background-color: rgba(254, 207, 210, 1)">
         <div class="row text-center about-text">
           <div class="col mb-3 mt-3"><h3>Kami yang berbahagia</h3></div>
         </div>
@@ -129,7 +129,7 @@
           <div class="col-6 mb-3">
             <h6>Mempelai Pria</h6>
             <img src="image/Kevin.jpg" alt="gambar kevin" width="100" class="rounded-circle img-thumbnail foto1" data-aos="zoom-in-up" data-aos-duration="2000" />
-            <h4 class="mt-2">Kevin Yoga</h4>
+            <h4 class="mt-2" data-aos="fade-right" data-aos-duration="1000">Kevin Yoga</h4>
             <h6>
               Putra ke 3 dari <br />
               Susanto Lim & Then Lie Djan
@@ -138,7 +138,7 @@
           <div class="col-6 mb-3">
             <h6>Mempelai Wanita</h6>
             <img src="image/sonya.jpg" alt="gambar sonya" width="100" class="rounded-circle img-thumbnail foto1" data-aos="zoom-in-up" data-aos-duration="2000" />
-            <h4 class="mt-2">Sonya Fransiska</h4>
+            <h4 class="mt-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Sonya Fransiska</h4>
             <h6>
               Putri ke 5 dari <br />
               <small class="text-muted">(alm)</small> Khouw Hua Hak & Tjung Siet Siu
@@ -151,7 +151,7 @@
         </div>
       </div>
     </section>
-
+    <!-- class="background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)" -->
     <!-- Akhir About -->
     <!-- tempat dan waktu -->
     <section id="tempat">
@@ -161,33 +161,32 @@
           <h4>TEMPAT DAN WAKTU</h4>
           <hr />
         </div>
-        <div class="row justify-content-center mb-2 mt-1">
-          <div class="col-6 justify-content-center">
+        <div class="row justify-content-center mb-2 mt-1" style="height: 400px">
+          <div class="col-6 justify-content-center align-self-center">
             <img src="image/PCimg8.jpeg" class="img-fluid rounded-circle img-thumbnail d-block" data-aos="flip-right" data-aos-duration="3000" alt="" />
           </div>
           <div class="col-6 justify-content-center align-self-center text-center">
             <div class="card" style="width: auto">
               <div class="card-body bg-danger bg-opacity-10 rounded">
-                <h5 class="card-title">Tunangan</h5>
-                <h6 class="card-subtitle mt-2 mb-2">14 Juni 2022 / 5 Gwee 16</h6>
+                <small class="card-title">Tunangan</small> <br />
+                <small class="card-subtitle mt-2 mb-2">14 Juni 2022 / 5 Gwee 16</small>
                 <!-- <p class="card-text text-muted">Jl. Raya Jungkat</p> -->
               </div>
             </div>
-
             <div class="card" style="width: auto">
               <div class="card-body bg-danger bg-opacity-10 rounded">
-                <h5 class="card-title">Menikah</h5>
-                <h6 class="card-subtitle mt-2 mb-2">26 Juni 2022 / 5 Gwee 28</h6>
-                <p class="card-text text-danger fw-bold">
+                <small class="card-title">Menikah</small> <br />
+                <small class="card-subtitle mt-2 mb-2">26 Juni 2022 / 5 Gwee 28</small> <br />
+                <small class="card-text text-danger fw-bold">
                   Hotel Star Pontianak <br />
                   Sky Garden Lt 7 <br />
                   Jam 17:00 - 20:00 WIB
-                </p>
+                </small>
               </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center text-center">
+        <div class="row justify-content-center text-center" data-aos="zoom-in-down" data-aos-duration="2000" style="height: 250px">
           <div class="google-maps">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.817397477136!2d109.33901491619368!3d-0.03896999989393511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59ad527031a1%3A0xfd9cfa4e139a340e!2sStar%20Hotel!5e0!3m2!1sid!2sid!4v1653307836252!5m2!1sid!2sid"
@@ -208,12 +207,9 @@
     <!-- gallery -->
     <section id="gallery">
       <div class="container-fluid gallery-foto">
-        <div class="row justify-content-center text-center mx-auto">
+        <div class="row justify-content-center align-content-center text-center mx-auto Judul-Gallery mb-3" style="height: 50px">
           <div class="col">
-            <hr />
-            <h4>GALLERY</h4>
-
-            <hr />
+            <h1 class="Judul-Gallery text-black"></h1>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -305,7 +301,7 @@
     <div class="container-fluid mb-5 mt-5">
       <div class="row justify-content-center">
         <div class="col text-center">
-          <h4>#FINallyfoundthisperSON</h4>
+          <h4 class="hastag"></h4>
           <hr />
           <small>create by Sandro Yo</small>
         </div>
@@ -321,6 +317,17 @@
       AOS.init();
     </script>
     <!-- akhir script AOS -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".hastag", { duration: 2, delay: 1, text: "#FINallyfoundthisperSON" });
+      gsap.to(".Judul-Gallery", { duration: 2, delay: 1, text: "GALLERY" });
+      gsap.from(".navbar", { duration: 2, y: "-100%", opacity: 0, ease: "bounce" });
+    </script>
+    <!-- Akhir GSAP  -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
