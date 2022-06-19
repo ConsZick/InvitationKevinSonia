@@ -121,9 +121,9 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container-fluid bg-opacity-75" style="background-color: rgba(254, 207, 210, 1)">
+      <div class="container-fluid bg-opacity-75" style="background-color: rgba(229, 233, 177, 1)">
         <div class="row text-center about-text">
-          <div class="col mb-3 mt-3"><h3>Kami yang berbahagia</h3></div>
+          <div class="col mb-3 mt-3"><h2 class="Judul-About"></h2></div>
         </div>
         <div class="row keterangan about-text justify-content-center text-center">
           <div class="col-6 mb-3">
@@ -138,7 +138,7 @@
           <div class="col-6 mb-3">
             <h6>Mempelai Wanita</h6>
             <img src="image/sonya.jpg" alt="gambar sonya" width="100" class="rounded-circle img-thumbnail foto1" data-aos="zoom-in-up" data-aos-duration="2000" />
-            <h4 class="mt-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Sonya Fransiska</h4>
+            <h4 class="mt-2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">Sonia Fransiska</h4>
             <h6>
               Putri ke 5 dari <br />
               <small class="text-muted">(alm)</small> Khouw Hua Hak & Tjung Siet Siu
@@ -155,28 +155,61 @@
     <!-- Akhir About -->
     <!-- tempat dan waktu -->
     <section id="tempat">
-      <div class="container-fluid">
+      <div class="container-fluid Container-Tempat">
         <div class="row justify-content-center text-center">
-          <hr />
-          <h4>TEMPAT DAN WAKTU</h4>
-          <hr />
+          <h1 class="Judul-Tempat"></h1>
         </div>
-        <div class="row justify-content-center mb-2 mt-1" style="height: 400px">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <img src="image/PCimg9.jpg" class="img-fluid rounded-circle img-thumbnail d-block" data-aos="flip-right" data-aos-duration="3000" alt="" />
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center mt-3">
+          <div class="col-10">
+            <div class="card border-2 border-danger text-dark">
+              <h5 class="card-header bg-danger bg-opacity-25 text-danger" style="text-shadow: 1px 1px 1px rgb(0, 0, 0)">TUNANGAN</h5>
+              <div class="card-body">
+                <h6 class="card-title">Selasa, 14 Juni 2022 / 5 Gwee 16</h6>
+                <!-- <p class="card-text">Selasa, 14 Juni 2022 / 5 Gwee 16</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center mt-3 mb-3" data-aos="flip-up" data-aos-duration="2000">
+          <div class="col-10">
+            <div class="card border-2 border-danger text-dark">
+              <h5 class="card-header bg-danger bg-opacity-25 text-danger" style="text-shadow: 1px 1px 1px rgb(0, 0, 0)">MENIKAH</h5>
+              <div class="card-body">
+                <h6 class="card-title">Minggu, 26 Juni 2022 / 5 Gwee 28</h6>
+                <hr />
+                <p class="card-text">
+                  HOTEL STAR PONTIANAK<br />SKY GARDEN Lt 7 <br />
+                  Jam 17:00 - 20:00 WIB
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row justify-content-center mb-2 mt-3">
           <div class="col-6 justify-content-center align-self-center">
-            <img src="image/PCimg8.jpeg" class="img-fluid rounded-circle img-thumbnail d-block" data-aos="flip-right" data-aos-duration="3000" alt="" />
+            <img src="image/PCimg9.jpg" class="img-fluid rounded-circle img-thumbnail d-block" data-aos="flip-right" data-aos-duration="3000" alt="" />
+            <img src="image/PCimg9.jpg" class="img-fluid rounded-circle img-thumbnail d-block" data-aos="flip-right" data-aos-duration="3000" alt="" />
           </div>
           <div class="col-6 justify-content-center align-self-center text-center">
             <div class="card" style="width: auto">
               <div class="card-body bg-danger bg-opacity-10 rounded">
                 <small class="card-title">Tunangan</small> <br />
-                <small class="card-subtitle mt-2 mb-2">14 Juni 2022 / 5 Gwee 16</small>
-                <!-- <p class="card-text text-muted">Jl. Raya Jungkat</p> -->
+                <small class="card-subtitle mt-2 mb-2">Selasa, 14 Juni 2022 / 5 Gwee 16</small>
+                <p class="card-text text-muted">Jl. Raya Jungkat</p>
               </div>
             </div>
             <div class="card" style="width: auto">
               <div class="card-body bg-danger bg-opacity-10 rounded">
                 <small class="card-title">Menikah</small> <br />
-                <small class="card-subtitle mt-2 mb-2">26 Juni 2022 / 5 Gwee 28</small> <br />
+                <small class="card-subtitle mt-2 mb-2">Minggu,26 Juni 2022 / 5 Gwee 28</small> <br />
                 <small class="card-text text-danger fw-bold">
                   Hotel Star Pontianak <br />
                   Sky Garden Lt 7 <br />
@@ -185,7 +218,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="row justify-content-center text-center" data-aos="zoom-in-down" data-aos-duration="2000" style="height: 250px">
           <div class="google-maps">
             <iframe
@@ -207,12 +240,64 @@
     <!-- gallery -->
     <section id="gallery">
       <div class="container-fluid gallery-foto">
-        <div class="row justify-content-center align-content-center text-center mx-auto Judul-Gallery mb-3" style="height: 50px">
+        <div class="row justify-content-center align-content-center text-center Judul-Gallery mb-0" style="height: 50px">
           <div class="col">
             <h1 class="Judul-Gallery text-black"></h1>
           </div>
         </div>
-        <div class="row justify-content-center">
+
+        <div class="row">
+          <div class="col">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="image/PCimg5.jpeg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-block text-light" style="text-shadow: 1px 1px 2px rgb(0, 0, 0)">
+                    <h5><i>The perfect marriage is when two inperfect couple refuse to give up to one another</i></h5>
+                    <!-- <p>Pernikahan yang sempurna adalah saat dua orang yang tidak sempurna menolak untuk menyerah pada pasangannya</p> -->
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/Pimg10.jpeg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-block text-light" style="text-shadow: 1px 1px 2px rgb(0, 0, 0)">
+                    <h5><i>Marriage is more than finding the right person. It is being the right person </i></h5>
+                    <!-- <p>Pernikahan bukan sekadar menemukan orang yang tepat tapi menjadi orang yang tepat</p> -->
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/PCimg8.jpeg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-block text-light" style="text-shadow: 1px 1px 2px rgb(0, 0, 0)">
+                    <h5><i>You dont married someone that you can live with, you married someone that you can’t live without </i></h5>
+                    <!-- <p>Pernikahan bukan sekadar menemukan orang yang tepat tapi menjadi orang yang tepat</p> -->
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/PCimg2.jpeg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-block text-light" style="text-shadow: 1px 3px 5px rgb(0, 0, 0)">
+                    <h5><i>The beauty of marriage is not always seen from the very beginning but rather as love grows and develops over time </i></h5>
+                    <!-- <p>Keindahan pernikahan tidak selalu terlihat dari awal tetapi lebih sebagai cinta yang tumbuh dan berkembang seiring dengan waktu</p> -->
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row justify-content-center">
           <div class="col-6">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -277,7 +362,7 @@
                   <img src="image/Pimg4.jpeg" class="d-block w-100" alt="image2" />
                 </div>
                 <div class="carousel-item">
-                  <img src="image/Pimg5.jpeg" class="d-block w-100" alt="image2" />
+                  <img src="image/Pimg8.jpeg" class="d-block w-100" alt="image2" />
                 </div>
                 <div class="carousel-item">
                   <img src="image/Pimg6.jpeg" class="d-block w-100" alt="image2" />
@@ -295,15 +380,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- awal footer -->
-    <div class="container-fluid mb-5 mt-5">
+    <div class="container-fluid mb-5 mt-2">
       <div class="row justify-content-center">
         <div class="col text-center">
           <h4 class="hastag"></h4>
           <hr />
-          <small>create by Sandro Yo</small>
+          <small data-aos="fade-up"
+          >create by Sandro Yo</small>
         </div>
       </div>
     </div>
@@ -325,6 +411,8 @@
       gsap.registerPlugin(TextPlugin);
       gsap.to(".hastag", { duration: 2, delay: 1, text: "#FINallyfoundthisperSON" });
       gsap.to(".Judul-Gallery", { duration: 2, delay: 1, text: "GALLERY" });
+      gsap.to(".Judul-Tempat", { duration: 2, delay: 1, text: "TEMPAT & WAKTU" });
+      gsap.to(".Judul-About", { duration: 2, delay: 1, text: "Kami yang berbahagia" });
       gsap.from(".navbar", { duration: 2, y: "-100%", opacity: 0, ease: "bounce" });
     </script>
     <!-- Akhir GSAP  -->

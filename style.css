@@ -89,13 +89,16 @@
 }
 
 .section-countdown {
-  background-image: linear-gradient(180deg, rgba(178, 253, 238, 0.96) -8.1%, rgba(207, 244, 254, 1) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgba(254, 219, 243, 1) 78.7%, rgba(254, 207, 210, 1) 109.2%);
+  background-image: linear-gradient(360deg, rgba(229, 233, 177, 1) 11.2%, rgba(223, 205, 187, 1) 100.2%);
+  /* background-image: linear-gradient(180deg, rgba(252, 225, 208, 1) 30%, rgba(255, 173, 214, 1) 55.7%, rgba(162, 186, 245, 1) 81.8%); */
+  /* background-image: linear-gradient(180deg, rgba(178, 253, 238, 0.96) -8.1%, rgba(207, 244, 254, 1) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgba(254, 219, 243, 1) 78.7%, rgba(254, 207, 210, 1) 109.2%); */
   font-family: Pacifico;
   /* background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); */
 }
 
-.tempat .container {
-  background-image: linear-gradient(180deg, rgba(224, 227, 228, 1), rgba(181, 213, 220, 0));
+.Container-Tempat {
+  background-image: url(image/tempat.jpeg);
+  background-size: cover;
 }
 
 .Judul-Gallery {
@@ -104,7 +107,20 @@
   font-weight: bolder;
   font-size: 200%;
   color: #ffffff;
-  text-shadow: 1px 1px 2px rgb(33, 4, 60);
+  text-shadow: 1px 1px 2px rgb(35, 45, 184);
+}
+
+.Judul-Tempat {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  font-family: Tapestry;
+  font-weight: bolder;
+  font-size: 200%;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(35, 45, 184);
+}
+
+.Judul-About {
+  text-shadow: 1px 0px 1px rgb(33, 4, 60);
 }
 
 /* .container .gallery-foto {
