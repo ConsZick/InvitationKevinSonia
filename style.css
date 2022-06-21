@@ -26,6 +26,11 @@
   position: relative;
 }
 
+.Judul-Utama {
+  color: rgb(255, 217, 0);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
 .jumbotron::after {
   content: "";
   display: block;
